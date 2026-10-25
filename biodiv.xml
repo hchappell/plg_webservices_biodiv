@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="webservices" method="upgrade">
+    <name>plg_webservices_biodiv</name>
+    <author>Helen Chappell</author>
+    <creationDate>April 2025</creationDate>
+    <copyright>(C) MammalWeb</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>helen.chappell@rhombustechnology.co.uk</authorEmail>
+    <authorUrl>www.rhombustechnology.co.uk</authorUrl>
+    <version>1.0.0</version>
+    <description></description>
+	<files>
+        <filename plugin="biodiv">biodiv.php</filename>
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_webservices_biodiv.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_webservices_biodiv.sys.ini</language>
+	</languages>
+</extension>
